@@ -102,7 +102,7 @@ const AboutUs = () => {
 
 
         <section className="relative max-w-6xl mx-auto">
-          <h1 className="text-5xl my-20  font-bold  text-center text-green-800"> Blessman Engineering</h1>
+          <h1 className="text-5xl my-20  font-bold  text-center text-green-800"></h1>
 
           <p className="mb-6 text-lg leading-relaxed">
             Blessman Engineering, founded by Samsul Alom, is a trusted name in Singapore specializing in <strong>kitchen exhaust and ventilation systems.</strong>
@@ -125,13 +125,13 @@ const AboutUs = () => {
             >
               blessmanengineering7@gmail.com
             </a>
-            or call <a href="tel:+652342322" className="text-green-600 underline hover:text-green-800">+65 2342 322</a>.
+             or call <a href="tel:+652342322" className="text-green-600 underline hover:text-green-800">+65 2342 322</a>.
             We look forward to assisting you with your kitchen ventilation needs!
           </p>
+ <hr className='border-2 border-green-600 my-20'/>
+          <h2 className="text-3xl font-semibold mb-4 text-center text-green-700">Kindly fill in your details, and we’ll be in touch soon.</h2>
 
-          <h2 className="text-3xl font-semibold mb-4 text-center text-green-700">Get in Touch</h2>
-
-          <form ref={form} onSubmit={sendEmail} className="max-w-3xl mx-auto p-8 rounded-lg ">
+          <form ref={form} onSubmit={sendEmail} className="max-w-3xl text-gray-600 mx-auto p-8 rounded-lg ">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-4">
               {/* Name */}
               <div>
@@ -145,7 +145,7 @@ const AboutUs = () => {
                   value={formData.name}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 transition"
+                  className="w-full px-4 bg-white shadow-md py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 transition"
                   placeholder="Wei Ming ***"
                 />
               </div>
@@ -161,7 +161,7 @@ const AboutUs = () => {
                   id="phone"
                   value={formData.phone || ''}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 transition"
+                  className="w-full px-4 py-3 border bg-white shadow-md border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 transition"
                   placeholder="+65 **** ****"
                 />
               </div>
@@ -179,7 +179,7 @@ const AboutUs = () => {
                 value={formData.email}
                 onChange={handleChange}
                 required
-                className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 transition"
+                className="w-full px-4 py-3 border bg-white shadow-md border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 transition"
                 placeholder="example@gmail.com"
               />
             </div>
@@ -196,7 +196,7 @@ const AboutUs = () => {
                 value={formData.message}
                 onChange={handleChange}
                 required
-                className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 transition"
+                className="w-full px-4 py-3 bg-white shadow-md border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 transition"
                 placeholder="Your message or inquiry"
               ></textarea>
             </div>
@@ -205,7 +205,7 @@ const AboutUs = () => {
             {/* Submit Button */}
             <button
               type="submit"
-              className="w-full mb-20 bg-green-700 text-white py-3 rounded-md font-semibold hover:bg-green-800 transition-colors"
+              className="w-full mb-20 bg-green-700 shadow-md  text-white py-3 rounded-md font-semibold hover:bg-green-800 transition-colors"
             >
               {loading ? <span className='flex justify-center gap-1 items-end'>Loading <span className="loading loading-dots loading-sm"></span></span> : 'Submit'}
             </button>

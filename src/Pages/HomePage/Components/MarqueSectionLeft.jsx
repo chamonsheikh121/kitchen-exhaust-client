@@ -69,12 +69,7 @@ const MarqueSectionLeft = () => {
                                 <div className="">
 
                                     <h1 className="text-xl font-semibold text-gray-900">
-                                        {(() => {
-                                            const firstName = item.name.split(" ")[0]; // Get first name
-                                            const visiblePart = firstName.slice(0, 2); // Take first 4 letters
-                                            const hiddenPart = firstName.length > 4 ? "★".repeat(firstName.length - 4) : ""; // Replace remaining with stars
-                                            return visiblePart + hiddenPart;
-                                        })()}
+                                        {item.name}
                                     </h1>
 
                                 </div>
