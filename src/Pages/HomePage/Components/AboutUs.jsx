@@ -107,7 +107,7 @@ const AboutUs = ({ setIsOpen }) => {
                         <button
                             className="flex md:w-3/6 h-full w-full relative linear-mask items-center gap-2 px-6 py-[10px] border-[2px] hover:bg-green-700 border-green-700 text-green-700 hover:text-white rounded-lg text-lg font-semibold shadow-lg transition-all hover:border-green-600"
                         >
-                            <p><MdSmartDisplay size={30} /></p>
+                            {/* <p><MdSmartDisplay size={30} /></p> */}
                             Learn more
                         </button></Link>
                     </div>
