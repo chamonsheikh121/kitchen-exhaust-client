@@ -19,7 +19,7 @@ const FAQSection = () => {
   },
   {
     question: "What information do you need to provide a quote?",
-    answer: "We need the kitchen size, type of cooking equipment used, preferred system components (like hoods, filters, fans), and any special requirements like odor control or noise reduction."
+    answer: "We need the kitchen size, type of cooking equipment used, preferred system components (like hoods, filters, fans), and any special requirements like odour control or noise reduction."
   },
   {
     question: "Do you offer a site inspection before installation?",
@@ -39,7 +39,7 @@ const FAQSection = () => {
   },
   {
     question: "Can you integrate air-cleaner equipment or UVC lamps with the system?",
-    answer: "Absolutely! We can integrate advanced purification units like air cleaners, UVC ozone lamps, and activated carbon filters for improved hygiene and odor control."
+    answer: "Absolutely! We can integrate advanced purification units like air cleaners, UVC ozone lamps, and activated carbon filters for improved hygiene and odour control."
   },
   {
     question: "Do you provide maintenance and cleaning services?",

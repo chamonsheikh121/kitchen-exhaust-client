@@ -47,7 +47,7 @@ const reviews =[
   },
   {
     "name": "DavidTan",
-    "description": "Affordable pricing and professional staff at Blessman Engineering. My kitchen feels fresher and smells less cooking odor thanks to them.",
+    "description": "Affordable pricing and professional staff at Blessman Engineering. My kitchen feels fresher and smells less cooking odour thanks to them.",
     "rating": 4,
     "location": "Marine Parade"
   },

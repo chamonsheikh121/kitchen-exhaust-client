@@ -48,7 +48,7 @@ const OurService = () => {
     {
       id: 2,
       title: "Air-Cleaner Equipment",
-      description: "Air purification systems to remove smoke, grease particles, and odors from commercial kitchens.",
+      description: "Air purification systems to remove smoke, grease particles, and odours from commercial kitchens.",
       img: airCleaner,
       options: {
         features: [
@@ -61,7 +61,7 @@ const OurService = () => {
     {
       id: 3,
       title: "UVC Ozone Lamps",
-      description: "Installation of UVC ozone lamps for advanced disinfection and odor control in kitchen exhaust systems.",
+      description: "Installation of UVC ozone lamps for advanced disinfection and odour control in kitchen exhaust systems.",
       img: Uvlamp,
       options: {
         features: [
@@ -74,11 +74,11 @@ const OurService = () => {
     {
       id: 4,
       title: "Activated Carbon Filters",
-      description: "Activated carbon filters for efficient odor absorption and smoke reduction.",
+      description: "Activated carbon filters for efficient odour absorption and smoke reduction.",
       img: FIlters,
       options: {
         features: [
-          { title: "High Adsorption Rate", description: "Effectively removes VOCs and kitchen odors." },
+          { title: "High Adsorption Rate", description: "Effectively removes VOCs and kitchen odours." },
           { title: "Easy Replacement", description: "Modular and user-friendly filter access." }
         ]
       }
