@@ -125,7 +125,7 @@ const AboutUs = () => {
             >
               blessmanengineering7@gmail.com
             </a>
-             or call <a href="tel:+6586912550" className="text-green-600 underline hover:text-green-800">+65 2342 322</a>.
+             or call <a href="tel:+6586912550" className="text-green-600 underline hover:text-green-800">+6586912550</a>.
             We look forward to assisting you with your kitchen ventilation needs!
           </p>
  <hr className='border-2 border-green-600 my-20'/>
