@@ -54,7 +54,7 @@ const Footer = () => {
             SINGAPORE (079903)
           </address>
           <p>email: blessmanengineering7@gmail.com, <br />
-            phone: +652342322
+            phone: +6586912550
           </p>
           <p className="mt-4">Blessman Engineering © {new Date().getFullYear()} - All rights reserved</p>
         </aside>
